@@ -13,7 +13,7 @@
     else if (typeof exports === 'object')
         exports["DragSort"] = factory();
     else
-        root.FormValidator = factory();
+        root.DragSort = factory();
 }(this, function(){
     return DragSort;
 })();
